@@ -1,0 +1,44 @@
+body {
+     margin: 0;
+     padding: 10px;
+}
+
+.container{
+     min-height: 97vh;
+     display: grid;
+     grid-template-rows: auto 1fr auto;
+}
+
+img {
+     height: 40px;
+     margin-right: 8px;
+}
+
+nav, footer {
+     display: flex;
+     align-items: center;
+     background-color: darkslategray;
+     padding: 0 10px;
+     color: white;
+     
+}
+
+ul {
+     display: flex;
+     list-style: none;
+}
+
+li {
+     margin: 0 10px;
+}
+
+.company, .copyright {
+     margin-right: auto;
+}
+
+main{
+     padding: 30px 60px;
+     text-align: justify;
+     font-size: 17px;
+     letter-spacing: .5px;
+}
